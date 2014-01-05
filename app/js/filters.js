@@ -1,6 +1,6 @@
 'use strict';
 
-eventsApp.filter('duration', function(){
+eventsApp.filter('durations', function(){
   return function(duration){
     switch(duration){
       case 1:
